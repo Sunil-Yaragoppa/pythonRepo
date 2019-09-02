@@ -1,0 +1,9 @@
+1)create new repository in github
+2)open git bash and go to your project directoty
+3)git init
+4)git add .
+5)git commit -m "learning push code to github"
+6)git remote add github https://github.com/Sunil-Yaragoppa/pythonRepo.git (your github repo url - this command is to create a nickname for your repository)
+7)git remote -v
+8)git push -f github master
+Now refresh your repository to see your files pushed to github

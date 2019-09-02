@@ -1,0 +1,50 @@
+myvenv\Scripts\activate -- activate virtual env
+python manage.py runserver -- run web server
+
+
+pip install virtualenv
+virtualenv myenv
+myenv\scripts\activate    #activate virtual env
+myenv\scripts\deactivate   #deactivate virtual env
+python -m pip install --upgrade pip     #update pip
+pip install django	#install django
+pip install -r requirements.txt #install django with requirements.txt file
+python -m django --version 	#django version
+django-admin startproject mysite 	#create a django project
+or
+django-admin startproject mysite .
+python manage.py runserver {optional port number}  #start django dev server
+python manage.py showmigrations	#show migrations
+python manage.py migrate	#migrate apps into databases
+cls		#clear screen
+django-admin startapp jobs 	#create a Django app
+
+python manage.py createsuperuser
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py shell
+
+deactivate — Exit out of the current Python virtual environment
+workon — List available virtual environments
+workon name_of_environment — Activate the specified Python virtual environment
+rmvirtualenv name_of_environment — Remove the specified environment.
+
+-----------------------------------------------------------------------------------
+Git # navigate to djangogirls directory
+-----------------------------------------------------------------------------------
+git status #returns information about any untracked/modified/staged files, the branch status, and much more
+git add --all . #save changes
+git status
+git commit -m "My Django Girls app, first commit"
+git push
+
+------------------------------------------------------------------------------------------------------------------
+Pull your new code down to PythonAnywhere, and reload your web app
+------------------------------------------------------------------------------------------------------------------
+Open up the PythonAnywhere consoles page and go to your Bash console (or start a new one). Then, run:
+
+cd ~/<your-pythonanywhere-domain>.pythonanywhere.com
+git pull
+
+Finally, hop on over to the "Web" page and hit Reload on your web app.
