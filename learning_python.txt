@@ -1,0 +1,6 @@
+In Python you can strip a string by uisng strip method.
+In Python you can create a list using list method.
+In Python you can create a string by using str method.
+In Python you can slice a strig by using slicing.
+In Python you can store a million digits of pi and check if your birthday appears in it.
+In Python you can create a class using class keyword.
